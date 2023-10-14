@@ -1,0 +1,72 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+"""
+////////////////////////////////////////////////////////////////////////////////////
+//   AUTOR:   ANDRÉS R. PHILIPPS BENÍTEZ                     Octubre/2021
+////////////////////////////////////////////////////////////////////////////////////
+//   PROGRAMA:       CMPARADOR DE AÑOS                VERSIÓN:              
+//   Versión Python:   3.10                             
+//                
+////////////////////////////////////////////////////////////////////////////////////
+                     Explicación del programa
+////////////////////////////////////////////////////////////////////////////////////
+"""
+#////////////////////////////////////////////////////////////////////////////////////
+# IMPORTAR LIBRERÍAS E INSTANCIAR CLASES
+#////////////////////////////////////////////////////////////////////////////////////
+
+#////////////////////////////////////////////////////////////////////////////////////
+# VARIABLES GLOBALES
+#////////////////////////////////////////////////////////////////////////////////////
+
+#////////////////////////////////////////////////////////////////////////////////////
+# CONFIGURACIÓN PUERTOS GPIO Y RECURSOS A UTILIZAR
+#////////////////////////////////////////////////////////////////////////////////////
+
+#////////////////////////////////////////////////////////////////////////////////////
+# FUNCIONES
+#////////////////////////////////////////////////////////////////////////////////////
+
+def recuento(actual, cualquiera):
+    if (cualquiera == 2022):
+        print("Tranqui, para eso sólo quedan un par de meses...")
+    elif (cualquiera<actual):
+        desfase = abs(actual-cualquiera)
+        print(f"Desde el año {cualquiera} han pasado {desfase} años.")
+    elif (cualquiera>actual):
+        desfase = abs(actual-cualquiera)
+        print(f"Para llegar al año {cualquiera} faltan {desfase} años.")
+    elif (cualquiera==actual):
+        print("Si repites el año no puedo hacer bien mi trabajo..")
+    else: 
+        pass
+
+#////////////////////////////////////////////////////////////////////////////////////
+# PROGRAMA PRINCIPAL
+#////////////////////////////////////////////////////////////////////////////////////
+try:
+    while True:
+        print("""
+        --- COMPARADOR DE AÑOS ---
+        """)
+        actual = int(input("¿En qué año estamos?: "))
+        if (actual == 2023):
+            cualquiera = int(input("Escriba un año cualquiera: "))
+            print()
+            recuento(actual, cualquiera)
+            print()
+        else:
+            print(f"""
+            ¡¡MENTIROSO!! ESTAMOS EN 2021, NO EN {actual}
+                (inténtalo de nuevo sin mentirme) 
+            """)
+
+except KeyboardInterrupt:         #Si el usuario pulsa CONTROL+C entonces...
+    print("El usuario ha pulsado Ctrl+C...")
+except:
+    print("error inesperado")
+finally:
+    """
+    CERRAMOS RECURSOS ABIERTOS
+    """
+

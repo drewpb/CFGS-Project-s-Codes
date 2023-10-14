@@ -1,0 +1,28 @@
+				Blog - DAQ LABVIEW
+
+Adjuntar pdf "Databook 6008.pdf". Hablar brevemente de:
+	- Modo Diferencial de medida
+	- MODO RSE, la fuente o el aparato de medida puede estar referenciado
+		a GND
+
+El siguiente paso será abrir NI MAX. Éste, es un software de NI en el que vamos a 
+testear el correcto funcionamiento del dispositivo USB-6008. Una vez abierto, conectamos
+nuestro DAQ al puerto USB del ordenador. Seleccionamos nuestro dispositivo en Devices 
+and Interfaces. Aquí podemos(más bien, debemos) cambiar el nombre.
+
+De primeras hacemos un "Self-Test", donde verificamos de manera rápida que todo va 
+bien a nivel general.
+Después hacemos click en "Test Panel". Este apartado es necesario ya que vamos a 
+comprobar el correcto funcionamiento de cada uno de los pines que conforman el DAQ.
+Como mencioné antes, el USB-6008 que vamos a usar lo componen entradas analógicas(AI),
+salidas analógicas(AO) y digitales que pueden ser tanto entradas como salidas.
+ que todas las AI(Entradas analogicas) dan 1.4 en vacío, y con un dupond conectar la salida
+de +2.5V a cada una de las entradas analogicas.
+En Analog Output, verificar con multimetro todas las salidas analogicas
+En Digital I/O, elegir el puerto y verificar tanto como entrada y salida digital
+En Device Pinouts, visualizar los pines del DAQ
+Si alguna vez diese error, ir a Tools >> Reset Configuration Data
+
+En LabVIEW, siempre que tratemos con el DAQ, lo haremos de la siguente forma;
+(abrir/config/leer-escribir/cerrar)
+

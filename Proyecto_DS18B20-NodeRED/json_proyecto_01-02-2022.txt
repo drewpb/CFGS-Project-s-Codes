@@ -1,0 +1,3083 @@
+[
+    {
+        "id": "63da34f4a992f5fb",
+        "type": "tab",
+        "label": "PROYECTO SENSOR DS18B20",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "783f72f227f133bf",
+        "type": "group",
+        "z": "63da34f4a992f5fb",
+        "name": "_1_ CREACIÓN BASE DE DATOS",
+        "style": {
+            "fill": "#ffcf3f",
+            "fill-opacity": "0.65",
+            "label": true,
+            "color": "#3f5787"
+        },
+        "nodes": [
+            "bc6023db446976de",
+            "2ad2079bd554aabc",
+            "f854acaf52f8ada8",
+            "58aae84b97528ae6",
+            "05cdf48f7d535440",
+            "8473d20a67d19c5b",
+            "621ffbc6a5d6c59d",
+            "7631ea91c7bc0699",
+            "127fc139d01e98e8"
+        ],
+        "env": [],
+        "x": 14,
+        "y": 19,
+        "w": 1192,
+        "h": 162
+    },
+    {
+        "id": "9aeabb9fede35539",
+        "type": "group",
+        "z": "63da34f4a992f5fb",
+        "name": "_2,3,4_ INTERACCIÓN CON BASE DE DATOS ",
+        "style": {
+            "fill": "#ffdf7f",
+            "label": true,
+            "color": "#3f5787",
+            "fill-opacity": "0.62"
+        },
+        "nodes": [
+            "2459312a073d95d8",
+            "537631310d3a96a2",
+            "bad8cdc51f6b11d2",
+            "ec4e100d1ffd60a0",
+            "f93efc921bdae2b4",
+            "211f219af5fa4b21",
+            "df83890defcc156d",
+            "65daf47a7e958f9a",
+            "ce0c1ce1662eb360",
+            "2de1b7f6a574e756",
+            "7f7324c848330546",
+            "09cb15aa35204f73",
+            "245eade348e1aa81",
+            "42c5e75b92789c1a",
+            "9aaba94363ca8c2a",
+            "09772fd6f202f885",
+            "04bb8dd1d599e04d",
+            "5f94a95fb16e0ed4"
+        ],
+        "env": [],
+        "x": 8,
+        "y": 193,
+        "w": 1998,
+        "h": 574
+    },
+    {
+        "id": "b16ffe70002fa970",
+        "type": "group",
+        "z": "63da34f4a992f5fb",
+        "name": "_5,6_ CÁMARAS",
+        "style": {
+            "fill": "#ffffbf",
+            "fill-opacity": "0.75",
+            "label": true,
+            "color": "#3f5787"
+        },
+        "nodes": [
+            "5c34ee629ad4a988",
+            "192a51bdcf0d024d",
+            "8d2b09e8e3f828b3",
+            "28a683f0bfac0e6d",
+            "ee594c4449e855fb",
+            "aa9a266688fd7841"
+        ],
+        "env": [],
+        "x": 8,
+        "y": 779,
+        "w": 1598,
+        "h": 202
+    },
+    {
+        "id": "d69691c70e7d3e2e",
+        "type": "group",
+        "z": "63da34f4a992f5fb",
+        "name": "_7_ TELEGRAM",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true,
+            "color": "#3f5787",
+            "fill-opacity": "0.62"
+        },
+        "nodes": [
+            "b6a8238541317356",
+            "0bad210b99a01b01",
+            "901f6ebf958b6bde",
+            "212b9af2683596a3",
+            "26e37bae6af90a02",
+            "64bc10ee2f50cf91",
+            "6dc0a74f068217c5",
+            "a3f5cc18fa5a2330",
+            "1e20c35f4f1d377d",
+            "cbe0ae8ee358f3c1",
+            "9e56c156a9b1ab6f",
+            "7580e7bc95f70bf8",
+            "cc4b11186349955e",
+            "46dbb758f1829bb5",
+            "be1b1d1508995b14",
+            "ed290a7708fe8a26",
+            "b6ee1b4784a17912",
+            "bc27b362246d876d",
+            "18aca21d17edac15",
+            "c9b0559dcbdd13dc",
+            "356494f697381792",
+            "6fcb6e953f144285",
+            "281f1499863b3208",
+            "5a3eb5e4a9a03d22",
+            "1a75b6bccb22e064"
+        ],
+        "env": [],
+        "x": 14,
+        "y": 999,
+        "w": 2232,
+        "h": 449.5
+    },
+    {
+        "id": "e5552f5e1994e6e1",
+        "type": "group",
+        "z": "63da34f4a992f5fb",
+        "name": "_8_ TEMPERATURA EN TIEMPO REAL",
+        "style": {
+            "label": true,
+            "fill": "#bfc7d7",
+            "fill-opacity": "0.71",
+            "color": "#3f5787"
+        },
+        "nodes": [
+            "135e74bc23745356",
+            "493978c3d2363207",
+            "44c9f2d6660b5339",
+            "714932997f20a2ef",
+            "7dc5d2d346edcf64",
+            "9c7cc923fdb81521",
+            "b5d1982b9c903000",
+            "afe000dbe4bcc99b"
+        ],
+        "env": [],
+        "x": 14,
+        "y": 1459,
+        "w": 1172,
+        "h": 122
+    },
+    {
+        "id": "69d0b81f0a53408e",
+        "type": "group",
+        "z": "63da34f4a992f5fb",
+        "name": "_9_ INFORME POR CORREO",
+        "style": {
+            "fill": "#dbcbe7",
+            "fill-opacity": "0.7",
+            "label": true,
+            "color": "#3f5787"
+        },
+        "nodes": [
+            "085163f0d03efe3e",
+            "dcfb5d8e454d55dd",
+            "7daf9b18f45ed139",
+            "dca615d3219a8324",
+            "7c6cda0810b10c4c",
+            "1910e774d41dec0c",
+            "74afb3491f2ef868",
+            "a51a04ee863cb204",
+            "fe73c3b0ccbebcad",
+            "c41ca87fcf4314e3",
+            "ec797f50af77fc30",
+            "dc41f7ce2bbd6ae0",
+            "25502abda9e1bafa",
+            "ab15ae4a2d627188",
+            "62a11c062b2edcb2",
+            "1e542a02eb471313",
+            "30bed130484e3f81",
+            "5da73be9a001f5af",
+            "727b7f413fe511cf",
+            "83d587859f9e772c",
+            "e159fe2d7f5f0b65",
+            "59d42822d7b089d8",
+            "992cb18482eb9cd3",
+            "1480da6a2cb69d52",
+            "a887afd7962c3d4b",
+            "54e937dc015fe84a",
+            "89ca11afee11d3e9",
+            "bb9a7f88c872c13a",
+            "c5e8b9fc3bc5da87",
+            "c7f8e9c98c14ae09",
+            "ab560b31327b38dd",
+            "626c095b47649408",
+            "14c8647d334e7c86",
+            "8920a13d0c1dfe05",
+            "ba49b987762d5daf",
+            "a2b4b7ad0af5d898"
+        ],
+        "env": [],
+        "x": 14,
+        "y": 1599,
+        "w": 2212,
+        "h": 449.5
+    },
+    {
+        "id": "09772fd6f202f885",
+        "type": "group",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "_2_ ESCRITURA EN BASE DE DATOS AUTOMÁTICA",
+        "style": {
+            "fill": "#ffdf7f",
+            "fill-opacity": "0.72",
+            "label": true,
+            "label-position": "ne",
+            "color": "#3f5787"
+        },
+        "nodes": [
+            "4219447af756efe5",
+            "8e323236ba6c7bef",
+            "c71d517171603da7",
+            "e1f27e667d140dfc",
+            "d897ece82a86dfae",
+            "230fa284fcf220f1",
+            "f50389cbb70cd7a2",
+            "fd5575f386e31495",
+            "cf595c784f6ce1a9"
+        ],
+        "env": [],
+        "x": 34,
+        "y": 219,
+        "w": 632,
+        "h": 282
+    },
+    {
+        "id": "04bb8dd1d599e04d",
+        "type": "group",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "_4_ ESCRITURA EN BASE DE DATOS DE FORMA EXTERNA",
+        "style": {
+            "fill": "#ffdf7f",
+            "fill-opacity": "0.69",
+            "label": true,
+            "color": "#3f5787"
+        },
+        "nodes": [
+            "3d5fdf1e803d37e9",
+            "b94add012691c8ac",
+            "721b0693e6caa469",
+            "be9c460974cc86bd",
+            "e9c8fafee0c1373f",
+            "aaeb51101a5e8ce8",
+            "378715aa32fb4ee5",
+            "db9dec4e4af19176"
+        ],
+        "env": [],
+        "x": 74,
+        "y": 539,
+        "w": 592,
+        "h": 202
+    },
+    {
+        "id": "5f94a95fb16e0ed4",
+        "type": "group",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "_3_ LEER BASE DE DATOS Y MOSTRAR EN DASHBOARD",
+        "style": {
+            "fill": "#ffdf7f",
+            "fill-opacity": "0.68",
+            "label": true,
+            "color": "#3f5787",
+            "label-position": "n"
+        },
+        "nodes": [
+            "4a610447d9bccbb2",
+            "7cebb86910fd08e6",
+            "822fafbf9d16ad7b",
+            "b6a550ceebed7cb8",
+            "16f1cde174f0c9ca",
+            "d73218abcc0a79ad",
+            "dc9075fc6f342863",
+            "e973a9a99cfa431f",
+            "c2045ab3e82765e4",
+            "615774ba957ba522",
+            "87910348d43431a9"
+        ],
+        "env": [],
+        "x": 604,
+        "y": 319,
+        "w": 582,
+        "h": 322
+    },
+    {
+        "id": "ee594c4449e855fb",
+        "type": "group",
+        "z": "63da34f4a992f5fb",
+        "g": "b16ffe70002fa970",
+        "name": "_6_ STREAMING WEBCAM",
+        "style": {
+            "label": true,
+            "label-position": "n",
+            "color": "#3f5787",
+            "fill": "#ffff7f",
+            "fill-opacity": "0.72"
+        },
+        "nodes": [
+            "1eb1b7b7ed792c18",
+            "e570e489a3adee92"
+        ],
+        "env": [],
+        "x": 640,
+        "y": 825,
+        "w": 272,
+        "h": 122
+    },
+    {
+        "id": "aa9a266688fd7841",
+        "type": "group",
+        "z": "63da34f4a992f5fb",
+        "g": "b16ffe70002fa970",
+        "name": "_5_ FOTO DE CONTROL",
+        "style": {
+            "fill": "#ffff7f",
+            "fill-opacity": "0.67",
+            "label": true,
+            "label-position": "n",
+            "color": "#3f5787"
+        },
+        "nodes": [
+            "8f150d047a621496",
+            "ed1dbad7638a6178",
+            "eebafeec6c7f3f48",
+            "1d592afdbaec72f9",
+            "9f7069435190c4af",
+            "4210e18e4c8938a1"
+        ],
+        "env": [],
+        "x": 34,
+        "y": 819,
+        "w": 552,
+        "h": 122
+    },
+    {
+        "id": "bc6023db446976de",
+        "type": "inject",
+        "z": "63da34f4a992f5fb",
+        "g": "783f72f227f133bf",
+        "name": "CREATE",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "CREATE TABLE DS18B20(Id INTEGER PRIMARY KEY AUTOINCREMENT, Temperatura NUMERIC, Fecha_YYYYMMDD DATE, Fecha_EPOCH DATE, Hora TIME, Dispositivo TEXT)",
+        "x": 120,
+        "y": 80,
+        "wires": [
+            [
+                "f854acaf52f8ada8"
+            ]
+        ],
+        "info": "CREATE TABLE DS18B20(Id INTEGER PRIMARY KEY AUTOINCREMENT, Temperatura NUMERIC, Fecha_YYYYMMDD DATE, Fecha_EPOCH DATE, Hora TIME, Dispositivo TEXT)"
+    },
+    {
+        "id": "2ad2079bd554aabc",
+        "type": "debug",
+        "z": "63da34f4a992f5fb",
+        "g": "783f72f227f133bf",
+        "name": "dbug_CreateSQlite",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "4219447af756efe5",
+        "type": "inject",
+        "z": "63da34f4a992f5fb",
+        "g": "09772fd6f202f885",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "device",
+                "v": "\"Nevera_Casa\"",
+                "vt": "str"
+            },
+            {
+                "p": "epoch",
+                "v": "",
+                "vt": "date"
+            },
+            {
+                "p": "date",
+                "v": "date('now')",
+                "vt": "str"
+            },
+            {
+                "p": "time",
+                "v": "time('now', '+1 hours')",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "0.6",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 130,
+        "y": 300,
+        "wires": [
+            [
+                "e1f27e667d140dfc"
+            ]
+        ]
+    },
+    {
+        "id": "8e323236ba6c7bef",
+        "type": "function",
+        "z": "63da34f4a992f5fb",
+        "g": "09772fd6f202f885",
+        "name": "INSERT",
+        "func": "var newMsg = {\n \"topic\": \"INSERT INTO DS18B20 (Temperatura, Fecha_YYYYMMDD , Fecha_EPOCH, Hora, dispositivo) values( \" + msg.payload.toFixed(2) + \", \"+msg.date+\", \"+msg.epoch+\",\"+msg.time+\", \"+msg.device + \")\"\n    \n}\n\nreturn newMsg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 380,
+        "wires": [
+            [
+                "cf595c784f6ce1a9",
+                "c71d517171603da7"
+            ]
+        ]
+    },
+    {
+        "id": "cf595c784f6ce1a9",
+        "type": "debug",
+        "z": "63da34f4a992f5fb",
+        "g": "09772fd6f202f885",
+        "name": "dbug_InsertarDatos",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "newMsg",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "4a610447d9bccbb2",
+        "type": "function",
+        "z": "63da34f4a992f5fb",
+        "g": "5f94a95fb16e0ed4",
+        "name": "",
+        "func": " //  \n // Create a data variable   \n //  \n var series = [\"Temperatura Cº\"];  \n var labels = [\"Data Values\"];  \n var data = \"[[\";  \n   \n for (var i=0; i < msg.payload.length; i++) {  \n   data += '{ \"x\":' + msg.payload[i].Fecha_EPOCH + ', \"y\":' + msg.payload[i].Temperatura + '}';  \n   if (i < (msg.payload.length - 1)) {  \n     data += \",\"  \n   } else {  \n     data += \"]]\";  \n   }  \n }\n var jsondata = JSON.parse(data);  \n msg.payload = [{\"series\": series, \"data\": jsondata, \"labels\": labels}];  \n   \n   \n return msg; ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 560,
+        "wires": [
+            [
+                "7cebb86910fd08e6"
+            ]
+        ]
+    },
+    {
+        "id": "7cebb86910fd08e6",
+        "type": "ui_chart",
+        "z": "63da34f4a992f5fb",
+        "g": "5f94a95fb16e0ed4",
+        "name": "GRAFICA_TEMP-DATE",
+        "group": "de6a792737765634",
+        "order": 15,
+        "width": 13,
+        "height": 6,
+        "label": "Relación Temperatura-Fecha(EPOCH)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "YYYY-MM-DD|HH:mm",
+        "interpolate": "monotone",
+        "nodata": "",
+        "dot": true,
+        "ymin": "3",
+        "ymax": "26",
+        "removeOlder": "36",
+        "removeOlderPoints": "10",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1010,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "822fafbf9d16ad7b",
+        "type": "ui_template",
+        "z": "63da34f4a992f5fb",
+        "g": "5f94a95fb16e0ed4",
+        "group": "de6a792737765634",
+        "name": "TABLA_DS18B20",
+        "order": 2,
+        "width": 13,
+        "height": 6,
+        "format": "<table style=\"background-color:#757575;color:#eeeeee;width:100%\" border=\"6%\" cellspacing=\"0\">\n  <tr style=\"background-color:#424242;color:#e0e0e0\">\n    <th style=\"text-align:center;\">Id</th>\n    <th style=\"text-align:center;\">Temperatura</th> \n    <th style=\"text-align:center;\">Fecha_YYYYMMDD</th>\n    <th style=\"text-align:center;\">Fecha_EPOCH</th>\n    <th style=\"text-align:center;\">Hora</th>\n    <th style=\"text-align:center;\">Dispositivo</th>\n  </tr>\n  <tr ng-repeat=\"x in msg.payload | limitTo:20\">\n    <td style=\"text-align:center;\">{{msg.payload[$index].Id}}</td>\n    <td style=\"text-align:center;\">{{msg.payload[$index].Temperatura}}</td> \n    <td style=\"text-align:center;\">{{msg.payload[$index].Fecha_YYYYMMDD}}</td> \n    <td style=\"text-align:center;\">{{msg.payload[$index].Fecha_EPOCH}}</td>\n    <td style=\"text-align:center;\">{{msg.payload[$index].Hora}}</td>\n    <td style=\"text-align:center;\">{{msg.payload[$index].Dispositivo}}</td>\n  </tr>\n</table>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 910,
+        "y": 480,
+        "wires": [
+            [
+                "16f1cde174f0c9ca"
+            ]
+        ]
+    },
+    {
+        "id": "b6a550ceebed7cb8",
+        "type": "file",
+        "z": "63da34f4a992f5fb",
+        "g": "5f94a95fb16e0ed4",
+        "name": "GUARDAR TABLA .CSV",
+        "filename": "/home/pi/_myDrew_/Proyecto_DS18B20/generateFiles/table.csv",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1050,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "16f1cde174f0c9ca",
+        "type": "csv",
+        "z": "63da34f4a992f5fb",
+        "g": "5f94a95fb16e0ed4",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 890,
+        "y": 360,
+        "wires": [
+            [
+                "b6a550ceebed7cb8"
+            ]
+        ]
+    },
+    {
+        "id": "3d5fdf1e803d37e9",
+        "type": "mqtt in",
+        "z": "63da34f4a992f5fb",
+        "g": "04bb8dd1d599e04d",
+        "name": "MQTT",
+        "topic": "ds18b20",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "d420573569e42c30",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 700,
+        "wires": [
+            [
+                "b94add012691c8ac",
+                "be9c460974cc86bd"
+            ]
+        ]
+    },
+    {
+        "id": "b94add012691c8ac",
+        "type": "function",
+        "z": "63da34f4a992f5fb",
+        "g": "04bb8dd1d599e04d",
+        "name": "INSERT",
+        "func": "var str = msg.payload;\nvar parts = str.split(\"+\");\ntemp= {payload: parseFloat(parts[0])};\ndisp= {payload: parts[1]};\ntimestamp = {payload: console.log(new Date().getTime())}\n\nvar newMsg = {\n \"topic\": \"INSERT INTO DS18B20 (Temperatura, Fecha_YYYYMMDD , Fecha_EPOCH, Hora, dispositivo) values( \" + temp.payload + \", date('now'), strftime('%s','now') || substr(strftime('%f','now'),4) , time('now', '+1 hours'), '\"+ disp.payload + \"')\"\n}\n\nreturn newMsg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 660,
+        "wires": [
+            [
+                "721b0693e6caa469",
+                "db9dec4e4af19176"
+            ]
+        ]
+    },
+    {
+        "id": "f854acaf52f8ada8",
+        "type": "sqlite",
+        "z": "63da34f4a992f5fb",
+        "g": "783f72f227f133bf",
+        "mydb": "be07623e8b455da8",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "DB SQLITE",
+        "x": 280,
+        "y": 80,
+        "wires": [
+            [
+                "2ad2079bd554aabc"
+            ]
+        ]
+    },
+    {
+        "id": "c71d517171603da7",
+        "type": "sqlite",
+        "z": "63da34f4a992f5fb",
+        "g": "09772fd6f202f885",
+        "mydb": "be07623e8b455da8",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "DB SQLITE -W",
+        "x": 440,
+        "y": 420,
+        "wires": [
+            [
+                "2459312a073d95d8"
+            ]
+        ]
+    },
+    {
+        "id": "c2045ab3e82765e4",
+        "type": "sqlite",
+        "z": "63da34f4a992f5fb",
+        "g": "5f94a95fb16e0ed4",
+        "mydb": "be07623e8b455da8",
+        "sqlquery": "fixed",
+        "sql": "select * from DS18B20 LIMIT 10000 OFFSET (SELECT COUNT(*) FROM DS18B20)-10;",
+        "name": "DB SQLITE -R",
+        "x": 720,
+        "y": 520,
+        "wires": [
+            [
+                "4a610447d9bccbb2",
+                "822fafbf9d16ad7b"
+            ]
+        ]
+    },
+    {
+        "id": "721b0693e6caa469",
+        "type": "sqlite",
+        "z": "63da34f4a992f5fb",
+        "g": "04bb8dd1d599e04d",
+        "mydb": "be07623e8b455da8",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "DB SQLITE -W",
+        "x": 460,
+        "y": 620,
+        "wires": [
+            [
+                "537631310d3a96a2"
+            ]
+        ]
+    },
+    {
+        "id": "e1f27e667d140dfc",
+        "type": "sensor-ds18b20",
+        "z": "63da34f4a992f5fb",
+        "g": "09772fd6f202f885",
+        "name": "DS18B20",
+        "topic": "",
+        "sensorid": "28-3c01d607a046",
+        "timer": "1",
+        "repeat": false,
+        "x": 220,
+        "y": 340,
+        "wires": [
+            [
+                "8e323236ba6c7bef"
+            ]
+        ]
+    },
+    {
+        "id": "be9c460974cc86bd",
+        "type": "debug",
+        "z": "63da34f4a992f5fb",
+        "g": "04bb8dd1d599e04d",
+        "name": "dbug_MQTT",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 310,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "db9dec4e4af19176",
+        "type": "debug",
+        "z": "63da34f4a992f5fb",
+        "g": "04bb8dd1d599e04d",
+        "name": "dbug_extraTemp",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "2459312a073d95d8",
+        "type": "change",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "TRUE",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 460,
+        "wires": [
+            [
+                "c2045ab3e82765e4"
+            ]
+        ]
+    },
+    {
+        "id": "537631310d3a96a2",
+        "type": "change",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "TRUE",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 580,
+        "wires": [
+            [
+                "c2045ab3e82765e4"
+            ]
+        ]
+    },
+    {
+        "id": "58aae84b97528ae6",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "783f72f227f133bf",
+        "name": "_1.1_ Inyecto la instrucción SQL para crear la base de datos de forma manual",
+        "info": "",
+        "x": 910,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "05cdf48f7d535440",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "783f72f227f133bf",
+        "name": "_1.1_",
+        "info": "",
+        "x": 130,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "8473d20a67d19c5b",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "783f72f227f133bf",
+        "name": "_1.2_",
+        "info": "",
+        "x": 310,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "621ffbc6a5d6c59d",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "783f72f227f133bf",
+        "name": "_1.3_",
+        "info": "",
+        "x": 490,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "7631ea91c7bc0699",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "783f72f227f133bf",
+        "name": "_1.2_ Ejecuto la instrucción SQL con SQlite",
+        "info": "",
+        "x": 810,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "127fc139d01e98e8",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "783f72f227f133bf",
+        "name": "_1.3_ Verifico que no haya errores",
+        "info": "",
+        "x": 780,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "d897ece82a86dfae",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "09772fd6f202f885",
+        "name": "_2.1_",
+        "info": "",
+        "x": 110,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "230fa284fcf220f1",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "09772fd6f202f885",
+        "name": "_2.2_",
+        "info": "",
+        "x": 270,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "f50389cbb70cd7a2",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "09772fd6f202f885",
+        "name": "_2.3_",
+        "info": "",
+        "x": 370,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "fd5575f386e31495",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "09772fd6f202f885",
+        "name": "_2.4_",
+        "info": "",
+        "x": 310,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "615774ba957ba522",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "5f94a95fb16e0ed4",
+        "name": "_3.1_",
+        "info": "",
+        "x": 730,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "d73218abcc0a79ad",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "5f94a95fb16e0ed4",
+        "name": "_3.2_",
+        "info": "",
+        "x": 850,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "dc9075fc6f342863",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "5f94a95fb16e0ed4",
+        "name": "_3.3_",
+        "info": "",
+        "x": 1030,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "e973a9a99cfa431f",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "5f94a95fb16e0ed4",
+        "name": "_3.4_",
+        "info": "",
+        "x": 1070,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "ec4e100d1ffd60a0",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "_2.1_ Inyecto datos ,activándolo cada 1 hora",
+        "info": "",
+        "x": 1370,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "f93efc921bdae2b4",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "_2.2_ Recojo los datos del sensor mediante I2C, asignado la ID del mismo",
+        "info": "",
+        "x": 1460,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "211f219af5fa4b21",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "_2.3_ Con los datos recibidos, los asigno en su colmuna correspondiente y creo la instrucción SQL que inserta datos",
+        "info": "",
+        "x": 1590,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "df83890defcc156d",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "_2.4_ Ejecuto la instrucción SQL para escribir información en la base de datos (\"INSERT..\")",
+        "info": "",
+        "x": 1510,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "65daf47a7e958f9a",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "_3.1_ Ejecuto la instrucción SQL para leer información de la base de datos (\"SELECT...\")",
+        "info": "",
+        "x": 1510,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "ce0c1ce1662eb360",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "_3.2_ Mediante html, doy forma y muestro la tabla en Dashboard",
+        "info": "",
+        "x": 1430,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "2de1b7f6a574e756",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "_3.3_ Primero convierto la tabla mostrada en formato .csv y después la almaceno en la Raspberry",
+        "info": "",
+        "x": 1530,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "7f7324c848330546",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "_3.4_ Con javascript, filtro las columnas que quiero graficar y después muestro la gráfica en Dashboard",
+        "info": "",
+        "x": 1550,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "e9c8fafee0c1373f",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "04bb8dd1d599e04d",
+        "name": "_4.1_",
+        "info": "",
+        "x": 150,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "aaeb51101a5e8ce8",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "04bb8dd1d599e04d",
+        "name": "_4.2_",
+        "info": "",
+        "x": 290,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "378715aa32fb4ee5",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "04bb8dd1d599e04d",
+        "name": "_4.3_",
+        "info": "",
+        "x": 410,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "bad8cdc51f6b11d2",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "_2.5 y 4.4_",
+        "info": "",
+        "x": 500,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "09cb15aa35204f73",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "_4.1_ Con la Raspberry, publico un mensaje en formato string que contiene; \"temperatura+dispositivo\"",
+        "info": "",
+        "x": 1550,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "245eade348e1aa81",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "_4.2_ Con javascript, separo cada elemento, los asigno en su colmuna correspondiente y creo la instrucción SQL",
+        "info": "",
+        "x": 1580,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "42c5e75b92789c1a",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "_4.3_ Ejecuto la instrucción SQL para escribir una nueva fila en la base de datos (\"INSERT...\")",
+        "info": "",
+        "x": 1520,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "9aaba94363ca8c2a",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "9aeabb9fede35539",
+        "name": "_2.5 y 4.4_ Una vez se ejecutan las órdenes anteriores, convierto la salida en un pulsador que activa el paso _3_",
+        "info": "",
+        "x": 1580,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "87910348d43431a9",
+        "type": "inject",
+        "z": "63da34f4a992f5fb",
+        "g": "5f94a95fb16e0ed4",
+        "name": "MANUAL",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.6",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 710,
+        "y": 580,
+        "wires": [
+            [
+                "c2045ab3e82765e4"
+            ]
+        ]
+    },
+    {
+        "id": "5c34ee629ad4a988",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "b16ffe70002fa970",
+        "name": "_5.1_ Cada 10 segundos, activo la salida con True",
+        "info": "",
+        "x": 1170,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "8d2b09e8e3f828b3",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "b16ffe70002fa970",
+        "name": "_5.2_ Al activarse, saca una foto con la webcam conectada a la Raspberry",
+        "info": "",
+        "x": 1240,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "192a51bdcf0d024d",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "b16ffe70002fa970",
+        "name": "_5.3_ Seguidamente, la almacena en un directorio de la misma",
+        "info": "",
+        "x": 1210,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "28a683f0bfac0e6d",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "b16ffe70002fa970",
+        "name": "_6.1_ Gracias a las librerías de MotionEye, otra webcam permanece en modo streaming",
+        "info": "",
+        "x": 1280,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "1eb1b7b7ed792c18",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "ee594c4449e855fb",
+        "name": "_6.1_",
+        "info": "",
+        "x": 756,
+        "y": 866,
+        "wires": []
+    },
+    {
+        "id": "e570e489a3adee92",
+        "type": "ui_iframe",
+        "z": "63da34f4a992f5fb",
+        "g": "ee594c4449e855fb",
+        "group": "07dcd92fde2a4367",
+        "name": "WEBCAM_MOTIONEYE",
+        "order": 1,
+        "width": 10,
+        "height": 9,
+        "url": "http://10.147.20.218:8765/",
+        "origin": "*",
+        "scale": "96",
+        "x": 776,
+        "y": 906,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8f150d047a621496",
+        "type": "inject",
+        "z": "63da34f4a992f5fb",
+        "g": "aa9a266688fd7841",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 130,
+        "y": 900,
+        "wires": [
+            [
+                "1d592afdbaec72f9"
+            ]
+        ]
+    },
+    {
+        "id": "ed1dbad7638a6178",
+        "type": "file",
+        "z": "63da34f4a992f5fb",
+        "g": "aa9a266688fd7841",
+        "name": "Foto guardada en JPG",
+        "filename": "/home/pi/_myDrew_/Proyecto_DS18B20/generateFiles/foto.jpg",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 460,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eebafeec6c7f3f48",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "aa9a266688fd7841",
+        "name": "_5.1_",
+        "info": "",
+        "x": 110,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "1d592afdbaec72f9",
+        "type": "usbcamera",
+        "z": "63da34f4a992f5fb",
+        "g": "aa9a266688fd7841",
+        "filemode": "0",
+        "filename": "image01.jpg",
+        "filedefpath": "1",
+        "filepath": "",
+        "fileformat": "jpeg",
+        "resolution": "5",
+        "name": "",
+        "x": 270,
+        "y": 900,
+        "wires": [
+            [
+                "ed1dbad7638a6178"
+            ]
+        ]
+    },
+    {
+        "id": "9f7069435190c4af",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "aa9a266688fd7841",
+        "name": "_5.2_",
+        "info": "",
+        "x": 270,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "4210e18e4c8938a1",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "aa9a266688fd7841",
+        "name": "_5.3_",
+        "info": "",
+        "x": 450,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "c41ca87fcf4314e3",
+        "type": "ui_dropdown",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "Informe",
+        "label": "<font size=\"5\">¿Qué informe quiere?</font>",
+        "tooltip": "",
+        "place": "Seleccione una opción",
+        "group": "4830576297ccddc1",
+        "order": 12,
+        "width": 11,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Resumen completo (Tabla + Gráfica )",
+                "value": "/full_rsmen",
+                "type": "str"
+            },
+            {
+                "label": "Sólo la gráfica del día",
+                "value": "/graph",
+                "type": "str"
+            },
+            {
+                "label": "Sólo la tabla del día",
+                "value": "/table",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "informe",
+        "topicType": "str",
+        "className": "",
+        "x": 280,
+        "y": 1760,
+        "wires": [
+            [
+                "5da73be9a001f5af"
+            ]
+        ]
+    },
+    {
+        "id": "a2b4b7ad0af5d898",
+        "type": "ui_date_picker",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "Fecha",
+        "label": "<font size=\"5\">Fecha:  </font>",
+        "group": "4830576297ccddc1",
+        "order": 2,
+        "width": 8,
+        "height": 1,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 90,
+        "y": 1640,
+        "wires": [
+            [
+                "dc41f7ce2bbd6ae0"
+            ]
+        ]
+    },
+    {
+        "id": "ec797f50af77fc30",
+        "type": "function",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "",
+        "func": "var date = {\n    payload: msg.payload,\n    topic: \"fecha\"\n}\nvar newMsg = {\n \"topic\": \"SELECT * FROM DS18B20 WHERE Fecha_YYYYMMDD == '\"+ date.payload +\"' LIMIT 30\"\n}\n\nreturn [newMsg, date];\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1700,
+        "wires": [
+            [
+                "25502abda9e1bafa"
+            ],
+            [
+                "5da73be9a001f5af"
+            ]
+        ]
+    },
+    {
+        "id": "dc41f7ce2bbd6ae0",
+        "type": "moment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "Formato-date",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/Madrid",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "YYYY-MM-DD",
+        "locale": "es-ES",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/Madrid",
+        "x": 160,
+        "y": 1680,
+        "wires": [
+            [
+                "ec797f50af77fc30"
+            ]
+        ]
+    },
+    {
+        "id": "25502abda9e1bafa",
+        "type": "sqlite",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "mydb": "be07623e8b455da8",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "DB SQLITE -R",
+        "x": 480,
+        "y": 1680,
+        "wires": [
+            [
+                "ab15ae4a2d627188",
+                "59d42822d7b089d8"
+            ]
+        ]
+    },
+    {
+        "id": "ab15ae4a2d627188",
+        "type": "ui_template",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "group": "4830576297ccddc1",
+        "name": "TABLA_SQLITE_DS18B20",
+        "order": 4,
+        "width": 15,
+        "height": 7,
+        "format": "<table style=\"width:100%\" border=\"6%\" cellspacing=\"0\">\n  <tr>\n    <th style=\"text-align:center;\">Id</th>\n    <th style=\"text-align:center;\">Temperatura</th> \n    <th style=\"text-align:center;\">Fecha_YYYYMMDD</th>\n    <th style=\"text-align:center;\">Fecha_EPOCH</th>\n    <th style=\"text-align:center;\">Hora</th>\n    <th style=\"text-align:center;\">Dispositivo</th>\n  </tr>\n  <tr ng-repeat=\"x in msg.payload | limitTo:20\">\n    <td>{{msg.payload[$index].Id}}</td>\n    <td style=\"text-align:center;\">{{msg.payload[$index].Temperatura}}</td> \n    <td style=\"text-align:center;\">{{msg.payload[$index].Fecha_YYYYMMDD}}</td> \n    <td style=\"text-align:center;\">{{msg.payload[$index].Fecha_EPOCH}}</td>\n    <td style=\"text-align:center;\">{{msg.payload[$index].Hora}}</td>\n    <td style=\"text-align:center;\">{{msg.payload[$index].Dispositivo}}</td>\n  </tr>\n</table>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 720,
+        "y": 1680,
+        "wires": [
+            [
+                "62a11c062b2edcb2"
+            ]
+        ]
+    },
+    {
+        "id": "62a11c062b2edcb2",
+        "type": "csv",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 910,
+        "y": 1680,
+        "wires": [
+            [
+                "1e542a02eb471313"
+            ]
+        ]
+    },
+    {
+        "id": "1e542a02eb471313",
+        "type": "file",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "Tabla guardada en CSV",
+        "filename": "/home/pi/_myDrew_/Proyecto_DS18B20/generateFiles/table_xtra.csv",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1090,
+        "y": 1680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "30bed130484e3f81",
+        "type": "ui_button",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "ok-date",
+        "group": "4830576297ccddc1",
+        "order": 7,
+        "width": 16,
+        "height": 1,
+        "passthru": false,
+        "label": "<font size=\"4\">GENERAR ARCHIVOS DE LA FECHA SELECCIONADA</font>",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "today",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 2000,
+        "wires": [
+            [
+                "1480da6a2cb69d52"
+            ]
+        ]
+    },
+    {
+        "id": "5da73be9a001f5af",
+        "type": "function",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "Función Correo",
+        "func": "context.data = context.data || {};\nswitch (msg.topic){\n    case \"boton\":\n        context.data.boton = msg.payload;\n        msg = null;\n        break;\n    case \"informe\":\n        context.data.informe = msg.payload;\n        msg = null;\n        break;\n    case \"fecha\":\n        context.data.fecha = msg.payload;\n        msg = null;\n        break;\n    case \"emailto\":\n        context.data.emailto = msg.payload;\n        msg = null;\n        break;\n    case \"extratext\":\n        context.data.extratext = msg.payload;\n        msg = null;\n        break;\n}\n\nvar archivos = []\nif (context.data.informe == \"/full_rsmen\"){\n        \n        archivos= [\n        {   // file on disk as an attachment\n            filename: 'Gráfica_DS18B20.jpg',\n            path: '/home/pi/_myDrew_/Proyecto_DS18B20/generateFiles/GRAFICA_DS18B20_Temp-F_xtra.jpg' // stream this file\n        },\n        {   // file on disk as an attachment\n            filename: 'Tabla_DS18B20.pdf',\n            path: '/home/pi/_myDrew_/Proyecto_DS18B20/generateFiles/TABLA_DS18B20_xtra.pdf' // stream this file\n        }];\n    } else if (context.data.informe == \"/graph\"){\n        archivos= [\n        {   \n            filename: 'Gráfica_DS18B20.jpg',\n            path: '/home/pi/_myDrew_/Proyecto_DS18B20/generateFiles/GRAFICA_DS18B20_Temp-F_xtra.jpg' // stream this file\n        }];\n    } else if (context.data.informe == \"/table\"){\n        archivos= [\n        {   // file on disk as an attachment\n            filename: 'Tabla_DS18B20.pdf',\n            path: '/home/pi/_myDrew_/Proyecto_DS18B20/generateFiles/TABLA_DS18B20_xtra.pdf' // stream this file\n       }];\n    } else {\n        //pass\n    }\nvar to_count = '\"'+context.data.emailto+'\",'\nvar newMsg = {\n    payload: `Buenas,\n    Te adjunto lo solicitado vía Node-Red correspondiente al día: `+context.data.fecha+`\n    \n    Un saludo.\n    \n    Texto extra del usuario:\n    `+context.data.extratext+`.`,\n    topic: \"Informe Node-Red\",\n    attachments: archivos,\n    to: ''+to_count+' andresphibe@outlook.es\"'\n}\n\nif (context.data.boton == true){\n    context.data.boton = false\n    return newMsg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 1800,
+        "wires": [
+            [
+                "727b7f413fe511cf",
+                "e159fe2d7f5f0b65"
+            ]
+        ]
+    },
+    {
+        "id": "727b7f413fe511cf",
+        "type": "debug",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "dbug_Correo-funcion",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "83d587859f9e772c",
+        "type": "ui_button",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "boton",
+        "group": "4830576297ccddc1",
+        "order": 10,
+        "width": 3,
+        "height": 3,
+        "passthru": false,
+        "label": "<font size=\"4\">ENVIAR</font>",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "email",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "boton",
+        "topicType": "str",
+        "x": 370,
+        "y": 1860,
+        "wires": [
+            [
+                "5da73be9a001f5af"
+            ]
+        ]
+    },
+    {
+        "id": "e159fe2d7f5f0b65",
+        "type": "e-mail",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "secure": true,
+        "tls": false,
+        "name": "",
+        "dname": "Envío de correo",
+        "x": 760,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "135e74bc23745356",
+        "type": "debug",
+        "z": "63da34f4a992f5fb",
+        "g": "e5552f5e1994e6e1",
+        "name": "debug_Temp",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 470,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "493978c3d2363207",
+        "type": "sensor-ds18b20",
+        "z": "63da34f4a992f5fb",
+        "g": "e5552f5e1994e6e1",
+        "name": "",
+        "topic": "",
+        "sensorid": "28-3c01d607a046",
+        "timer": "1",
+        "repeat": false,
+        "x": 270,
+        "y": 1540,
+        "wires": [
+            [
+                "135e74bc23745356",
+                "714932997f20a2ef"
+            ]
+        ]
+    },
+    {
+        "id": "44c9f2d6660b5339",
+        "type": "inject",
+        "z": "63da34f4a992f5fb",
+        "g": "e5552f5e1994e6e1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "18",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.9",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 110,
+        "y": 1540,
+        "wires": [
+            [
+                "493978c3d2363207"
+            ]
+        ]
+    },
+    {
+        "id": "714932997f20a2ef",
+        "type": "ui_gauge",
+        "z": "63da34f4a992f5fb",
+        "g": "e5552f5e1994e6e1",
+        "name": "",
+        "group": "07dcd92fde2a4367",
+        "order": 3,
+        "width": 8,
+        "height": 3,
+        "gtype": "gage",
+        "title": "",
+        "label": "(Cº)",
+        "format": "{{value}}",
+        "min": "3",
+        "max": "26",
+        "colors": [
+            "#c1ebfd",
+            "#89e104",
+            "#ff8040"
+        ],
+        "seg1": "13",
+        "seg2": "21",
+        "className": "",
+        "x": 630,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "59d42822d7b089d8",
+        "type": "function",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "",
+        "func": " //  \n // Create a data variable   \n //  \n var series = [\"Temperatura Cº\"];  \n var labels = [\"Data Values\"];  \n var data = \"[[\";  \n   \n for (var i=0; i < msg.payload.length; i++) {  \n   data += '{ \"x\":' + msg.payload[i].Fecha_EPOCH + ', \"y\":' + msg.payload[i].Temperatura + '}';  \n   if (i < (msg.payload.length - 1)) {  \n     data += \",\"  \n   } else {  \n     data += \"]]\";  \n   }  \n }\n var jsondata = JSON.parse(data);  \n msg.payload = [{\"series\": series, \"data\": jsondata, \"labels\": labels}];  \n   \n   \n return msg; ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 1640,
+        "wires": [
+            [
+                "992cb18482eb9cd3"
+            ]
+        ]
+    },
+    {
+        "id": "992cb18482eb9cd3",
+        "type": "ui_chart",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "GRAFICA_TEMP-DATE",
+        "group": "4830576297ccddc1",
+        "order": 5,
+        "width": 15,
+        "height": 7,
+        "label": "<font size=\"5\">Relación Temperatura(Cº)-Fecha(EPOCH)</font>",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "YYYY-MM-DD|HH:mm",
+        "interpolate": "monotone",
+        "nodata": "",
+        "dot": true,
+        "ymin": "3",
+        "ymax": "26",
+        "removeOlder": "36",
+        "removeOlderPoints": "30",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 870,
+        "y": 1640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1480da6a2cb69d52",
+        "type": "exec",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "command": "sudo python3 /home/pi/_myDrew_/Proyecto_DS18B20/db_Table-Graph_xtra.py",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "0.1",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 520,
+        "y": 2000,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "b6a8238541317356",
+        "type": "chatbot-telegram-receive",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "bot": "9dca7153eecb3e94",
+        "botProduction": "",
+        "x": 130,
+        "y": 1180,
+        "wires": [
+            [
+                "0bad210b99a01b01",
+                "64bc10ee2f50cf91"
+            ]
+        ]
+    },
+    {
+        "id": "0bad210b99a01b01",
+        "type": "debug",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "dbug_TelegramRecib",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.content",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 160,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "901f6ebf958b6bde",
+        "type": "chatbot-telegram-send",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "bot": "9dca7153eecb3e94",
+        "botProduction": "",
+        "track": false,
+        "passThrough": false,
+        "errorOutput": false,
+        "outputs": 0,
+        "x": 950,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "212b9af2683596a3",
+        "type": "chatbot-message",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "Saludo",
+        "message": [
+            {
+                "message": "   ¡¡Buenas!!\n\n   Te hablo desde la Raspberry Pi 4 y formo parte del proyecto \"CONTROL SENSOR DS18B20\".\n\n   Tengo programado una serie de funcionalidades que te pueden ser de utilidad;\n\n - Si quieres saber más a cerca de la información técnica sobre la Raspberry Pi y del sensor utilizado, por favor, pulsa /info.\n\n - Si quieres visualizar una foto de la cámara que vigila al sensor, pulse /foto.\n\n - Si desea generar un resumen de los últimos datos captados por el sensor de temperatura,  por favor, pulsa /generar_rsmen.\n\n           ¡Gracias por la atención!"
+            }
+        ],
+        "language": "none",
+        "x": 560,
+        "y": 1040,
+        "wires": [
+            [
+                "901f6ebf958b6bde"
+            ]
+        ]
+    },
+    {
+        "id": "26e37bae6af90a02",
+        "type": "chatbot-image",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "Cam2_foto",
+        "filename": "",
+        "image": "/home/pi/_myDrew_/Proyecto_DS18B20/generateFiles/foto.jpg",
+        "caption": "",
+        "x": 570,
+        "y": 1120,
+        "wires": [
+            [
+                "901f6ebf958b6bde"
+            ]
+        ]
+    },
+    {
+        "id": "64bc10ee2f50cf91",
+        "type": "switch",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "",
+        "property": "payload.content",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "/hola",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/info",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/foto",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/resumen",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/generar_rsmen",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 350,
+        "y": 1200,
+        "wires": [
+            [
+                "212b9af2683596a3"
+            ],
+            [
+                "7580e7bc95f70bf8"
+            ],
+            [
+                "26e37bae6af90a02"
+            ],
+            [
+                "9e56c156a9b1ab6f",
+                "a3f5cc18fa5a2330"
+            ],
+            [
+                "1e20c35f4f1d377d",
+                "cc4b11186349955e"
+            ]
+        ]
+    },
+    {
+        "id": "6dc0a74f068217c5",
+        "type": "change",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 1340,
+        "wires": [
+            [
+                "cbe0ae8ee358f3c1"
+            ]
+        ]
+    },
+    {
+        "id": "a3f5cc18fa5a2330",
+        "type": "chatbot-image",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "Gráfica JPG",
+        "filename": "",
+        "image": "/home/pi/_myDrew_/Proyecto_DS18B20/generateFiles/GRAFICA_DS18B20_Temp-F.jpg",
+        "caption": "",
+        "x": 590,
+        "y": 1260,
+        "wires": [
+            [
+                "901f6ebf958b6bde"
+            ]
+        ]
+    },
+    {
+        "id": "1e20c35f4f1d377d",
+        "type": "exec",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "command": "sudo python3 /home/pi/_myDrew_/Proyecto_DS18B20/db_Table-Graph_.py",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "0.1",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Ejecutar Script .py",
+        "x": 590,
+        "y": 1400,
+        "wires": [
+            [
+                "6dc0a74f068217c5"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "cbe0ae8ee358f3c1",
+        "type": "chatbot-message",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "",
+        "message": [
+            {
+                "message": "   ¡¡Resumen generado!!\n\nSi quieres recibirlo, pulse /resumen."
+            }
+        ],
+        "language": "none",
+        "x": 810,
+        "y": 1300,
+        "wires": [
+            [
+                "901f6ebf958b6bde"
+            ]
+        ]
+    },
+    {
+        "id": "9e56c156a9b1ab6f",
+        "type": "chatbot-document",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "Documento PDF",
+        "filename": "",
+        "document": "/home/pi/_myDrew_/Proyecto_DS18B20/generateFiles/TABLA_DS18B20.pdf",
+        "caption": "",
+        "x": 580,
+        "y": 1220,
+        "wires": [
+            [
+                "901f6ebf958b6bde"
+            ]
+        ]
+    },
+    {
+        "id": "7580e7bc95f70bf8",
+        "type": "chatbot-message",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "Informacion",
+        "message": [
+            {
+                "message": "Raspberry Pi utilizada:\n   S.O   : Debian GNU/Linux 11 (bullseye) 64bits\n   SoC   : BCM2711\n   RAM   : 8GB\n   Almacenamiento   : SSD 240Gb\n   Puertos USB   : 4 ( 2xUSB-3)\n   Puertos Ethernet   : 1 (1000Mbps max. velocidad)\n   Wi-fi   : Sí\n   Puertos Camera (CSI)   : 1\n   WebCams Conectadas   : 2\n\nSensor de temperatura utilizado:  *DS18B20*\n - Enlace al Datasheet; \nhttps://html.alldatasheet.com/html-pdf/58557/DALLAS/DS18B20/181/1/DS18B20.html\n\n"
+            }
+        ],
+        "language": "none",
+        "x": 570,
+        "y": 1080,
+        "wires": [
+            [
+                "901f6ebf958b6bde"
+            ]
+        ]
+    },
+    {
+        "id": "cc4b11186349955e",
+        "type": "chatbot-waiting",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "waitingType": "upload_document",
+        "x": 580,
+        "y": 1360,
+        "wires": [
+            [
+                "901f6ebf958b6bde"
+            ]
+        ]
+    },
+    {
+        "id": "46dbb758f1829bb5",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "_7.1_",
+        "info": "",
+        "x": 150,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "be1b1d1508995b14",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "_7.2_",
+        "info": "",
+        "x": 350,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "ed290a7708fe8a26",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "_7.3_",
+        "info": "",
+        "x": 570,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "b6ee1b4784a17912",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "_7.5_",
+        "info": "",
+        "x": 590,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "bc27b362246d876d",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "_7.4_",
+        "info": "",
+        "x": 770,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "18aca21d17edac15",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "_7.6_",
+        "info": "",
+        "x": 950,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "281f1499863b3208",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "_7.1_ Leo los comandos recibidos por el chatbot de Telegram, anteriormente configurados",
+        "info": "",
+        "x": 1410,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "c9b0559dcbdd13dc",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "_7.2_ Pasan por un selector según el comando que sea",
+        "info": "",
+        "x": 1300,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "1a75b6bccb22e064",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "_7.3_ Los tres primeros comandos sn sencillos. Uno nos muestra un mensaje inicial, otro nos da información y otro nos prepara la foto que se almacena en el punto _5.3_",
+        "info": "",
+        "x": 1660,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "5a3eb5e4a9a03d22",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "_7.4_ El siguiente comando executa un script de python el cual genera dos archivos; un pdf y jpg",
+        "info": "",
+        "x": 1430,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "356494f697381792",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "_7.5_ Este comando envía la tabla y la gráfica a modo de resumen",
+        "info": "",
+        "x": 1340,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "6fcb6e953f144285",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "d69691c70e7d3e2e",
+        "name": "_7.6_ Finalmente se envían los mensajes correspondientes",
+        "info": "",
+        "x": 1310,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "7dc5d2d346edcf64",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "e5552f5e1994e6e1",
+        "name": "_8.1_",
+        "info": "",
+        "x": 170,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "9c7cc923fdb81521",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "e5552f5e1994e6e1",
+        "name": "_8.2_",
+        "info": "",
+        "x": 630,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "b5d1982b9c903000",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "e5552f5e1994e6e1",
+        "name": "_8.1_Cada 15 segundos recojo el dato del sensor DS18B20",
+        "info": "",
+        "x": 940,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "afe000dbe4bcc99b",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "e5552f5e1994e6e1",
+        "name": "_8.2_ Y lo muestro en Dashboard",
+        "info": "",
+        "x": 850,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "a887afd7962c3d4b",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.1_",
+        "info": "",
+        "x": 130,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "54e937dc015fe84a",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.2_",
+        "info": "",
+        "x": 310,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "89ca11afee11d3e9",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.3_",
+        "info": "",
+        "x": 470,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "bb9a7f88c872c13a",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.4_",
+        "info": "",
+        "x": 1050,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "085163f0d03efe3e",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.1_ El usuario selecciona una fecha en Dashboard y le doy el formato YYYY-MM-DD para facilitar la búsqueda en la base de datos",
+        "info": "",
+        "x": 1660,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "dcfb5d8e454d55dd",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.2_ Doy forma a la instrucción SQL encargada de recoger los datos del día elegido",
+        "info": "",
+        "x": 1510,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "7daf9b18f45ed139",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.3_ Ejecuto la orden mediante SQLite",
+        "info": "",
+        "x": 1370,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "dca615d3219a8324",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.4_ Hace lo mismo que lo explicado en los puntos _3.2_3.3_3.4_, pero guarda la tabla con otro nombre distinto para que no se sobreescriban",
+        "info": "",
+        "x": 1700,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "c5e8b9fc3bc5da87",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.5_",
+        "info": "",
+        "x": 170,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "c7f8e9c98c14ae09",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.6_",
+        "info": "",
+        "x": 390,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "ab560b31327b38dd",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.7_",
+        "info": "",
+        "x": 530,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "626c095b47649408",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.8_",
+        "info": "",
+        "x": 750,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "14c8647d334e7c86",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.9_",
+        "info": "",
+        "x": 310,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "7c6cda0810b10c4c",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.5_ El usuario selecciona que tipo de informe quiere recibir en su correo electrónico, además debe escribir su correo electrónico y un texto opcional",
+        "info": "",
+        "x": 1710,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "1910e774d41dec0c",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.6_ El usario pulsa el boton de \"Enviar\" una vez escogido los pasos anteriores",
+        "info": "",
+        "x": 1500,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "74afb3491f2ef868",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.7_ Doy forma al correo electrónico que se va a mandar, con la dirección de envío, asunto, etc.",
+        "info": "",
+        "x": 1550,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "a51a04ee863cb204",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.8_ Doy acceso a enviar los correos con una cuenta ya creada aportando mi id y contraseña",
+        "info": "",
+        "x": 1540,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "fe73c3b0ccbebcad",
+        "type": "comment",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "_9.9_ El usuario, al pulsar este botón genera los archivos correspondientes al dia elegido",
+        "info": "",
+        "x": 1530,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "8920a13d0c1dfe05",
+        "type": "ui_text_input",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "Correo",
+        "label": "<font size=\"5\">¿A qué correo desea mandarlo?</font>",
+        "tooltip": "P.ej.; correo@gmail.com",
+        "group": "4830576297ccddc1",
+        "order": 14,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "mode": "email",
+        "delay": "900",
+        "topic": "emailto",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 250,
+        "y": 1840,
+        "wires": [
+            [
+                "5da73be9a001f5af"
+            ]
+        ]
+    },
+    {
+        "id": "ba49b987762d5daf",
+        "type": "ui_text_input",
+        "z": "63da34f4a992f5fb",
+        "g": "69d0b81f0a53408e",
+        "name": "Recordatorio",
+        "label": "<font size=\"5\">¿Desea añadir texto extra en el mensaje?</font>",
+        "tooltip": "",
+        "group": "4830576297ccddc1",
+        "order": 18,
+        "width": 13,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": "900",
+        "topic": "extratext",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 310,
+        "y": 1800,
+        "wires": [
+            [
+                "5da73be9a001f5af"
+            ]
+        ]
+    },
+    {
+        "id": "ef27daa77d3b58d0",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e12130fa9bb59d20",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "82c6b3df4e60d2ba",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5743bd0bb0310e58",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "394f98602d3f5808",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cd1e80b7b9c79cd8",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "397f23d78326c023",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c4ed8c9fd577d789",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d4dacd0ca83c6ccb",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "dff0f5131f8aa56f",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b64cc12d317a1baa",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "304765a030604ff5",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 13,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "91a8344fcad92042",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f5dafb22e19177d5",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 16,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f68c7307c61e5a3c",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "eb65060b5cca7370",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 18,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c4238876bcc339a6",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "19fa1c4e14f40035",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 20,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "fb5b571f589d85b8",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 21,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1ec8deffae4d6f13",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 22,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "a6c9e06f55c91b4e",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 23,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6f23cdc07bfe66f2",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 24,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "77abd895adb52a0d",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 25,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8f2262c82fcd4704",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "de6a792737765634",
+        "order": 26,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f39644bdfe8ac184",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "07dcd92fde2a4367",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bbb7a9bcd5213aab",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "07dcd92fde2a4367",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b4430212dc5e3829",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "07dcd92fde2a4367",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "717c1545637ec14c",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "07dcd92fde2a4367",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cadfa0d557b41ed1",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "07dcd92fde2a4367",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "95687005fcdc42fa",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "07dcd92fde2a4367",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e802f73766c1f214",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "4830576297ccddc1",
+        "order": 1,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "a6ece896a03d8676",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "4830576297ccddc1",
+        "order": 3,
+        "width": 11,
+        "height": 1
+    },
+    {
+        "id": "8a78af6fc7d6cd8c",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "4830576297ccddc1",
+        "order": 6,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "57c01c280335c025",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "4830576297ccddc1",
+        "order": 8,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "3b53f04f1a5e257e",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "4830576297ccddc1",
+        "order": 9,
+        "width": 26,
+        "height": 1
+    },
+    {
+        "id": "f4d5bdfd675424ed",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "4830576297ccddc1",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "20540c4387adbbff",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "4830576297ccddc1",
+        "order": 13,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "257652d111f9f076",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "4830576297ccddc1",
+        "order": 15,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "2f9fd7c1672e5570",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "4830576297ccddc1",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cf0237458fddbcad",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "4830576297ccddc1",
+        "order": 17,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "cffa901fa9c3a341",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "4830576297ccddc1",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3636703b12b5a525",
+        "type": "ui_spacer",
+        "z": "63da34f4a992f5fb",
+        "name": "spacer",
+        "group": "4830576297ccddc1",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "de6a792737765634",
+        "type": "ui_group",
+        "name": "___________________ - TABLA SQLite y GRÁFICA  - ___________________",
+        "tab": "23c84072d0b4dbe8",
+        "order": 1,
+        "disp": true,
+        "width": 16,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d420573569e42c30",
+        "type": "mqtt-broker",
+        "broker": "127.0.0.1",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "be07623e8b455da8",
+        "type": "sqlitedb",
+        "db": "/home/pi/_myDrew_/Proyecto_DS18B20/MedTemp.db",
+        "mode": "RWC"
+    },
+    {
+        "id": "07dcd92fde2a4367",
+        "type": "ui_group",
+        "name": "____________ -  STREAMING - ____________",
+        "tab": "23c84072d0b4dbe8",
+        "order": 3,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4830576297ccddc1",
+        "type": "ui_group",
+        "name": "---",
+        "tab": "16c62a94d4ea673f",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9dca7153eecb3e94",
+        "type": "chatbot-telegram-node",
+        "botname": "BOT - Ds18b20_nred",
+        "usernames": "drewphilBot, luisBot",
+        "token": "5158323584:AAGpWLmw6StbDyQNdm-YuMxL-0qpzdT-ug0",
+        "providerToken": "",
+        "polling": "1000",
+        "store": "",
+        "log": "",
+        "debug": false,
+        "webHook": "",
+        "connectMode": "polling"
+    },
+    {
+        "id": "23c84072d0b4dbe8",
+        "type": "ui_tab",
+        "name": "PROYECTO DS18B20",
+        "icon": "important_devices",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "16c62a94d4ea673f",
+        "type": "ui_tab",
+        "name": "REGISTROS E INFORMES",
+        "icon": "queue_play_next",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    }
+]
